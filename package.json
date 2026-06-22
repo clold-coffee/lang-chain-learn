@@ -4,7 +4,10 @@
   "type": "module",
   "scripts": {
     "dev": "tsx src/agent.ts",
-    "start": "tsx src/agent.ts"
+    "start": "tsx src/agent.ts",
+    "cli": "tsx src/cli.ts",
+    "blog": "tsx src/cli.ts 写一篇关于 LangGraph Human-in-the-Loop 的中文技术博客",
+    "linkedin": "tsx src/cli.ts 写一篇关于 Agent应用 的 LinkedIn 中文帖子"
   },
   "dependencies": {
     "@langchain/core": "latest",
