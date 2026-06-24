@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "sql": "tsx src/mysql-sql-agent.ts",
     "dev": "tsx src/agent.ts",
     "start": "tsx src/agent.ts",
     "cli": "tsx src/cli.ts",
@@ -11,17 +12,18 @@
   },
   "dependencies": {
     "@langchain/classic": "^1.0.36",
-    "@langchain/core": "^1.2.0",
+    "@langchain/core": "^1.2.1",
     "@langchain/deepseek": "^1.1.1",
     "@langchain/ollama": "^1.3.0",
-    "@langchain/openai": "^1.5.1",
+    "@langchain/openai": "^1.5.3",
     "@langchain/textsplitters": "^1.0.1",
     "cheerio": "^1.2.0",
     "deepagents": "latest",
     "dotenv": "^17.4.2",
-    "langchain": "^1.5.0",
+    "langchain": "^1.5.2",
+    "mysql2": "^3.22.5",
     "pdf-parse": "^2.4.5",
-    "zod": "latest"
+    "zod": "^4.4.3"
   },
   "devDependencies": {
     "@types/node": "^26.0.0",
