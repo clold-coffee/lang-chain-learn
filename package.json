@@ -8,7 +8,9 @@
     "start": "tsx src/agent.ts",
     "cli": "tsx src/cli.ts",
     "blog": "tsx src/cli.ts 写一篇关于 LangGraph Human-in-the-Loop 的中文技术博客",
-    "linkedin": "tsx src/cli.ts 写一篇关于 Agent应用 的 LinkedIn 中文帖子"
+    "linkedin": "tsx src/cli.ts 写一篇关于 Agent应用 的 LinkedIn 中文帖子",
+    "single": "tsx src/single-agent.ts",
+    "multi": "tsx src/multi-agent.ts"
   },
   "dependencies": {
     "@langchain/classic": "^1.0.36",
@@ -23,6 +25,7 @@
     "langchain": "^1.5.2",
     "mysql2": "^3.22.5",
     "pdf-parse": "^2.4.5",
+    "uuid": "^14.0.1",
     "zod": "^4.4.3"
   },
   "devDependencies": {
